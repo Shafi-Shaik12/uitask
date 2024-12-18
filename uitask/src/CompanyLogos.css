@@ -1,0 +1,43 @@
+/* .company-logos {
+  
+    text-align: center;
+    margin-top: 30px;
+    margin:44px
+  }
+  
+  .company-logos .logos img {
+    width: 100px;
+    margin: 10px;
+    filter: grayscale(100%);
+  }
+  .image{
+    display: flex;
+  gap: 150px;
+  } */
+  .company-logos {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  .company-logos p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .company-logos .logos {
+    display: flex; /* Flexbox for image alignment */
+    justify-content: center; /* Center-align the images horizontally */
+    flex-wrap: wrap; /* Wrap images to the next line */
+    gap: 150px; /* Large consistent gap between images */
+  }
+  
+  .company-logos .logos img {
+    width: 100px;
+    height: auto; /* Maintain image aspect ratio */
+   
+  }
+  
+
+  
